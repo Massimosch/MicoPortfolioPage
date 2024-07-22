@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Data",
+    "\\Data\\images",
     "\\styles",
     "\\styles\\project_styles"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\Data\\images\\portrait.png",
   "PreviewInSolutionExplorer": false
 }
