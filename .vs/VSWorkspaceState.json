@@ -2,13 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\Data",
+    "\\Data\\cv",
     "\\Data\\pages",
     "\\Data\\pages\\projects",
-    "\\Data\\projects",
     "\\Data\\projects\\mapex",
+    "\\Data\\Skills\\project_banners",
     "\\styles",
     "\\styles\\project_styles"
   ],
-  "SelectedNode": "\\Data\\pages\\projects\\mapex.html",
+  "SelectedNode": "\\Data\\pages\\projects.html",
   "PreviewInSolutionExplorer": false
 }
