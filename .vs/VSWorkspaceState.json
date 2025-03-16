@@ -2,10 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Data",
-    "\\Data\\images",
+    "\\Data\\pages",
+    "\\Data\\pages\\projects",
+    "\\Data\\projects",
+    "\\Data\\projects\\mapex",
     "\\styles",
     "\\styles\\project_styles"
   ],
-  "SelectedNode": "\\Data\\images\\portrait.png",
+  "SelectedNode": "\\Data\\pages\\projects\\mapex.html",
   "PreviewInSolutionExplorer": false
 }
