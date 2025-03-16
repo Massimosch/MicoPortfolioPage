@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\pages\\projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\project_styles\\exalted.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles\\project_styles\\exalted.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\project_styles\\mapex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles\\project_styles\\mapex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\project_styles\\mirage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles\\project_styles\\mirage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\project_styles\\vpa.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles\\project_styles\\vpa.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects\\exalted.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\pages\\projects\\exalted.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects\\mapex.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,48 +31,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\pages\\projects\\mirage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\scripts\\button_nav_proj.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\button_nav_proj.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\scripts\\button_nav_career.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\button_nav_career.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\Skills\\skills_bg_fade.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Skills\\skills_bg_fade.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\index_old.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index_old.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\LandingStyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LandingStyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\LICENSE||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LICENSE||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\career.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\pages\\career.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\images\\icon_trans.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\images\\icon_trans.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\landing.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles\\landing.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\pages\\projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -79,110 +55,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "button_nav_proj.js",
-              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\scripts\\button_nav_proj.js",
-              "RelativeDocumentMoniker": "scripts\\button_nav_proj.js",
-              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\scripts\\button_nav_proj.js",
-              "RelativeToolTip": "scripts\\button_nav_proj.js",
+              "Title": "vpa.css",
+              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\project_styles\\vpa.css",
+              "RelativeDocumentMoniker": "styles\\project_styles\\vpa.css",
+              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\project_styles\\vpa.css",
+              "RelativeToolTip": "styles\\project_styles\\vpa.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-16T07:25:39.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "button_nav_career.js",
-              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\scripts\\button_nav_career.js",
-              "RelativeDocumentMoniker": "scripts\\button_nav_career.js",
-              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\scripts\\button_nav_career.js",
-              "RelativeToolTip": "scripts\\button_nav_career.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-16T07:25:37.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "skills_bg_fade.js",
-              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\Skills\\skills_bg_fade.js",
-              "RelativeDocumentMoniker": "Data\\Skills\\skills_bg_fade.js",
-              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\Skills\\skills_bg_fade.js",
-              "RelativeToolTip": "Data\\Skills\\skills_bg_fade.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-16T07:25:31.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": ".gitattributes",
-              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\.gitattributes",
-              "RelativeDocumentMoniker": ".gitattributes",
-              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\.gitattributes",
-              "RelativeToolTip": ".gitattributes",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-16T07:24:14.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LICENSE",
-              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\LICENSE",
-              "RelativeDocumentMoniker": "LICENSE",
-              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\LICENSE",
-              "RelativeToolTip": "LICENSE",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-16T07:23:56.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "index_old.html",
-              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\index_old.html",
-              "RelativeDocumentMoniker": "index_old.html",
-              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\index_old.html",
-              "RelativeToolTip": "index_old.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-16T07:23:52.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "mapex.html",
-              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects\\mapex.html",
-              "RelativeDocumentMoniker": "Data\\pages\\projects\\mapex.html",
-              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects\\mapex.html",
-              "RelativeToolTip": "Data\\pages\\projects\\mapex.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-16T07:07:38.747Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-16T07:52:37.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "mirage.html",
-              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects\\mirage.html",
-              "RelativeDocumentMoniker": "Data\\pages\\projects\\mirage.html",
-              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects\\mirage.html",
-              "RelativeToolTip": "Data\\pages\\projects\\mirage.html",
-              "ViewState": "AgIAAAoAAAAAAAAAAADwv0YAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-16T07:06:37.238Z",
+              "Title": "mirage.css",
+              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\project_styles\\mirage.css",
+              "RelativeDocumentMoniker": "styles\\project_styles\\mirage.css",
+              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\project_styles\\mirage.css",
+              "RelativeToolTip": "styles\\project_styles\\mirage.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-16T07:50:43.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mapex.css",
+              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\project_styles\\mapex.css",
+              "RelativeDocumentMoniker": "styles\\project_styles\\mapex.css",
+              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\project_styles\\mapex.css",
+              "RelativeToolTip": "styles\\project_styles\\mapex.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-16T07:50:38.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "exalted.css",
+              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\project_styles\\exalted.css",
+              "RelativeDocumentMoniker": "styles\\project_styles\\exalted.css",
+              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\project_styles\\exalted.css",
+              "RelativeToolTip": "styles\\project_styles\\exalted.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-16T07:50:32.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "mirage.html",
+              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects\\mirage.html",
+              "RelativeDocumentMoniker": "Data\\pages\\projects\\mirage.html",
+              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects\\mirage.html",
+              "RelativeToolTip": "Data\\pages\\projects\\mirage.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-16T07:38:08.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "exalted.html",
+              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects\\exalted.html",
+              "RelativeDocumentMoniker": "Data\\pages\\projects\\exalted.html",
+              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects\\exalted.html",
+              "RelativeToolTip": "Data\\pages\\projects\\exalted.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-16T07:37:58.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "projects.html",
               "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects.html",
               "RelativeDocumentMoniker": "Data\\pages\\projects.html",
@@ -190,70 +140,20 @@
               "RelativeToolTip": "Data\\pages\\projects.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-16T06:34:13.314Z",
+              "WhenOpened": "2025-03-16T07:36:47.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "career.html",
-              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\career.html",
-              "RelativeDocumentMoniker": "Data\\pages\\career.html",
-              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\career.html",
-              "RelativeToolTip": "Data\\pages\\career.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "mapex.html",
+              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects\\mapex.html",
+              "RelativeDocumentMoniker": "Data\\pages\\projects\\mapex.html",
+              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\pages\\projects\\mapex.html",
+              "RelativeToolTip": "Data\\pages\\projects\\mapex.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-16T06:34:01.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "icon_trans.png",
-              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\images\\icon_trans.png",
-              "RelativeDocumentMoniker": "Data\\images\\icon_trans.png",
-              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\Data\\images\\icon_trans.png",
-              "RelativeToolTip": "Data\\images\\icon_trans.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-07-22T02:49:22.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LandingStyle.css",
-              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\LandingStyle.css",
-              "RelativeDocumentMoniker": "LandingStyle.css",
-              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\LandingStyle.css",
-              "RelativeToolTip": "LandingStyle.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2023-10-03T13:26:44.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "landing.css",
-              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\landing.css",
-              "RelativeDocumentMoniker": "styles\\landing.css",
-              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\styles\\landing.css",
-              "RelativeToolTip": "styles\\landing.css",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC0AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2023-10-03T13:21:43.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\index.html",
-              "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "C:\\Users\\micos\\Desktop\\OPISKELU\\Portfolio-Mico\\index.html",
-              "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2023-10-03T13:21:31.001Z",
+              "WhenOpened": "2025-03-16T07:36:39.232Z",
               "EditorCaption": ""
             }
           ]
