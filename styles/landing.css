@@ -22,8 +22,8 @@ body
 {
     color: rgba(255, 255, 255, 255);
     font-family: 'VT323', 'monospace';
-    font-size: 60pt;
-    margin: -25px auto;
+    font-size: 30pt;
+    margin: -20px auto;
     width: max-content;
 
     /* DEBUG VARIABLES */
@@ -37,7 +37,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
     font-family: 'cascadia', 'monospace';
     margin-top: 25px;
     
-    font-size: 2.2rem; 
+    font-size: 1rem; 
     line-height: 1.5;  
     letter-spacing: -.05rem;
     
