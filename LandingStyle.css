@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
 
 body {
-    background-color: #7b2286;
-    background-image: repeating-linear-gradient(rgba(104, 30, 138, 0.2), rgba(111, 24, 146, 0.2),#4abbcf  102% );
+    background-color: #e5d2e8;
+    background-image: repeating-linear-gradient(rgba(104, 30, 138, 0.2), rgba(220, 213, 221, 0.2),#4abbcf  102% );
     height: 100vh;
     display: block;
     margin: 0px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Fira Code', monospace;
     font-size: 15pt;
     text-shadow: 0 0 3px;
 }

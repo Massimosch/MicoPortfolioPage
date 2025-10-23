@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
 @font-face
 {
@@ -7,8 +7,8 @@
 }
 body
 {
-    background-color: #ff7d0a;
-    background-image: repeating-radial-gradient(rgba(166, 65, 12, 0.2), rgba(221, 166, 135, 0.36), #cf6e10 102% );
+    background-color: #2b2a2a;
+    background-image: repeating-radial-gradient(rgba(166, 65, 12, 0.2), rgba(221, 166, 135, 0.36), #000000 102% );
     height: 200vh;
     display: block;
     font-size: 15pt;
@@ -16,19 +16,20 @@ body
 
     /* DEBUG VARIABLES */
     border: 0px solid rgb(255, 255, 0);
-  }
+}
 
 #title
 {
     color: rgba(255, 255, 255, 255);
-    font-family: 'VT323', 'monospace';
-    font-size: 30pt;
+    font-family: 'Fira Code', 'monospace';
+    font-size: 20pt;
     margin: -20px auto;
     width: max-content;
 
     /* DEBUG VARIABLES */
     border: 0px solid rgb(149, 255, 0);
-}  
+}
+
 h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 
 #title_description
@@ -36,20 +37,20 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
     color: rgba(255, 255, 255, 255);
     font-family: 'cascadia', 'monospace';
     margin-top: 25px;
-    
-    font-size: 1rem; 
-    line-height: 1.5;  
+
+    font-size: 1rem;
+    line-height: 1.5;
     letter-spacing: -.05rem;
-    
+
     /* DEBUG VARIABLES */
     border: 0px solid rgb(149, 255, 0);
-}  
+}
 
 #about_me
 {
     color: rgba(255, 255, 255, 255);
     font-family: 'cascadia', 'monospace';
-    font-size: 1.8rem; 
+    font-size: 1.8rem;
     letter-spacing: -.05rem;
 }
 
@@ -62,7 +63,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
     border: 0px solid rgb(255, 102, 0);
 }
 
-ul 
+ul
 {
     display: flex;
     flex-direction: column;
@@ -74,14 +75,14 @@ ul
 
 }
 
-ul li 
+ul li
 {
     align-self:center;
     border: 0px solid rgba(92, 250, 0, 0.938);
     width: max-content;
 }
 
-ul li a 
+ul li a
 {
     align-self:center;
 
@@ -101,16 +102,16 @@ ul li a
     background-repeat: no-repeat;
     color: transparent;
     -webkit-background-clip: text;
-            background-clip: text;
+    background-clip: text;
     transition: 0.35s linear;
 }
 
-ul li a:hover 
+ul li a:hover
 {
     background-size: 100%;
 }
 
-#quick_links 
+#quick_links
 {
     width: 100%;
     text-align: center;
@@ -119,7 +120,7 @@ ul li a:hover
     color: rgb(255, 255, 255);
 }
 
-#tooltip 
+#tooltip
 {
     font-family: 'VT323', monospace;
     font-size: 15pt;
@@ -134,98 +135,98 @@ i.fa {
     padding: 5px;
     font-size: 20pt;
     color: rgb(255, 255, 255);
- }
+}
 
 word
-{ 
-    display:inline-block; 
+{
+    display:inline-block;
 }
 
 a letter
-{ 
-    color:inherit; 
-} 
+{
+    color:inherit;
+}
 
 letter
-{ 
-  display:inline-block; 
-  white-space:pre; 
-  background:none; 
-  transition:.4s; 
+{
+    display:inline-block;
+    white-space:pre;
+    background:none;
+    transition:.4s;
 }
 
 letter.initial
-{ 
-  opacity:0; 
-  text-shadow:0 0 9px; 
-  color:#FFF; 
-  -webkit-transform:scale(8); 
-  -webkit-transform-origin:150% 50%; 
-  transform:scale(8); 
-  transform-origin:150% 50%; 
+{
+    opacity:0;
+    text-shadow:0 0 9px;
+    color:#FFF;
+    -webkit-transform:scale(8);
+    -webkit-transform-origin:150% 50%;
+    transform:scale(8);
+    transform-origin:150% 50%;
 }
 
 .buttons {
-  font-family: "cascadia", "monospace";
+    font-family: "cascadia", "monospace";
 
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-            flex-direction: column;
+    flex-direction: column;
     height: 100%;
     -webkit-box-pack: center;
-            justify-content: center;
+    justify-content: center;
     text-align: center;
     width: 90%;
-  }
-  
-  .button_container {
+}
+
+.button_container {
     -webkit-box-align: center;
-            align-items: center;
+    align-items: center;
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-            flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-            justify-content: center;
+    justify-content: center;
     text-align: center;
-  }
+}
 
-  @media (min-width: 600px) {
+@media (min-width: 600px) {
     .button_container {
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-              flex-direction: row;
-      -webkit-box-pack: justify;
-              justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
     }
-  }
-  
-  p {
+}
+
+p {
     color: #fff;
     font-size: 12px;
-  }
-  @media (min-width: 600px) {
+}
+@media (min-width: 600px) {
     p {
-      left: 50%;
-      position: absolute;
-      -webkit-transform: translate(-50%, 0);
-              transform: translate(-50%, 0);
-      top: 90%;
+        left: 50%;
+        position: absolute;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        top: 90%;
     }
-  }
-  @media (max-height: 500px) {
+}
+@media (max-height: 500px) {
     p {
-      left: 0;
-      position: relative;
-      top: 0;
-      -webkit-transform: translate(0, 0);
-              transform: translate(0, 0);
+        left: 0;
+        position: relative;
+        top: 0;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
     }
-  }
-  p a {
+}
+p a {
     background: rgba(255, 255, 255, 0);
     border-bottom: 1px solid;
     color: #fff;
@@ -233,11 +234,11 @@ letter.initial
     padding: .25em;
     min-width: 100px;
     text-decoration: none;
-  }
-  p a:hover {
+}
+p a:hover {
     background: white;
     color: #E1332D;
-  }
+}
 
 .btn {
     color: #fff;
@@ -250,11 +251,11 @@ letter.initial
     text-decoration: none;
     text-transform: uppercase;
     width: 100%;
-  }
+}
 
 .btn:hover {
     text-decoration: none;
-  }
+}
 
 .btn-5 {
     border: 0px solid;
@@ -265,85 +266,85 @@ letter.initial
     text-shadow: none;
     -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
     transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-  }
-  
-  .btn-5:hover 
-  {
+}
+
+.btn-5:hover
+{
     border: 0px solid;
-    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2); 
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
     outline-color: rgba(255, 255, 255, 0);
     outline-offset: 15px;
     text-shadow: 1px 1px 2px #427388;
-  }
-  
-  .kd-button  {
-	position: relative;
+}
+
+.kd-button  {
+    position: relative;
     display: inline-block;
     margin-left: 1rem;
-	overflow: hidden;
-	vertical-align: middle;
+    overflow: hidden;
+    vertical-align: middle;
 }
 
 #pt
 {
-  color: rgba(255, 255, 255, 255);
-  font-family: 'cascadia', 'monospace';
-  font-size: 1.8rem; 
-  letter-spacing: -.05rem;
-  text-align: center;
+    color: rgba(255, 255, 255, 255);
+    font-family: 'cascadia', 'monospace';
+    font-size: 1.8rem;
+    letter-spacing: -.05rem;
+    text-align: center;
 }
 
 .proj-button
 {
-  border: 2px solid white;
-	position: relative;
-	display: inline-block;
-	border-radius: 50%;
-	overflow: hidden;
-	transition: transform .3s;
-	max-width:10vh;
-	min-width:10vh;
-  min-height:10vh;
-	max-height:10vh;
-  vertical-align: middle;
+    border: 2px solid white;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform .3s;
+    max-width:10vh;
+    min-width:10vh;
+    min-height:10vh;
+    max-height:10vh;
+    vertical-align: middle;
 }
 
 .proj-button:hover {
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5); 
-  outline-color: rgba(255, 255, 255, 0);
-  text-shadow: 1px 1px 2px #427388;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5);
+    outline-color: rgba(255, 255, 255, 0);
+    text-shadow: 1px 1px 2px #427388;
 }
 
 .proj-button-active
 {
-	position: relative;
-	display: inline-block;
-	border: 2px solid yellow;
-	border-radius: 50%;
-	overflow: hidden;
-	transition: transform .3s;
-	vertical-align: middle;
-	max-width:10vh;
-	min-width:10vh;
+    position: relative;
+    display: inline-block;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform .3s;
+    vertical-align: middle;
+    max-width:10vh;
+    min-width:10vh;
     min-height:10vh;
-	max-height:10vh;
+    max-height:10vh;
 }
 
 .proj-button-active:hover
 {
-  box-shadow: inset 0 0 20px rgba(221, 189, 11, 0.5), 0 0 20px rgba(236, 221, 7, 0.5); 
-  outline-color: yellow;
-  text-shadow: 1px 1px 2px yellow;
+    box-shadow: inset 0 0 20px rgba(221, 189, 11, 0.5), 0 0 20px rgba(236, 221, 7, 0.5);
+    outline-color: yellow;
+    text-shadow: 1px 1px 2px yellow;
 }
 
-.proj-button-img 
+.proj-button-img
 {
-	overflow: hidden;
-	transition: transform .5s;
-	max-width: 100%;
-	width: auto;
-  height: auto;
-  vertical-align: middle;
+    overflow: hidden;
+    transition: transform .5s;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
 }
 
 #proj-button-section
@@ -353,51 +354,104 @@ letter.initial
 
 /****************** Skills section *********************/
 
-#skill-chart-title
+.skill-chart-title
 {
-  color: rgba(255, 255, 255, 255);
-  text-align: center; 
-  font-family: 'VT323', monospace;
-  font-size: 3.5rem; 
-  letter-spacing: -.05rem;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 2.5rem;
+    letter-spacing: -.05rem;
 }
 
-/* ---------------------------------------------------- */
+/* New Skills Styles */
+.skills-container {
+    color: rgba(255, 255, 255, 255);
+    font-family: 'cascadia', 'monospace';
+    font-size: 1.5rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
+.skill-category {
+    margin-bottom: 3rem;
+}
+
+.skill-category h3 {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'VT323', monospace;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 0.5rem;
+}
+
+/* SPECIFIC styles for skills lists - override the general ul styles */
+.skills-container ul {
+    display: block !important;
+    flex-direction: column !important;
+    align-self: normal !important;
+    width: 100% !important;
+    border: 0px solid rgb(255, 102, 0) !important;
+    padding: 0 !important;
+}
+
+.skills-container li {
+    align-self: normal !important;
+    border: 0px solid rgba(92, 250, 0, 0.938) !important;
+    width: 100% !important;
+    margin-bottom: 0.8rem;
+    padding-left: 1rem;
+    position: relative;
+    display: block !important;
+}
+
+.skills-container li:before {
+    content: "•";
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    left: 0;
+}
+
+.skills-container strong {
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: 600;
+}
+
+/* Remove old chart styles */
 .chart_parent
 {
-  border: 2px dotted white;
+    border: 2px dotted white;
 }
 
-.chart .metric 
+.chart .metric
 {
-  background-color: rgba(255, 255, 255, 0);
-  background: rgba(255, 255, 255, 0);
-  color: white;
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
-  border-radius: 3px;
-  padding: 10px;
-  text-align: left;
-  box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.6);
-  font-family: 'cascadia', 'monospace';
-
+    background-color: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    padding: 10px;
+    text-align: left;
+    box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.6);
+    font-family: 'cascadia', 'monospace';
 }
 
 .chart .metric .metric-value {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .chart-horizontal {
-  width: 100%;
+    width: 100%;
 }
 
 .chart-horizontal .metric {
-  margin-bottom: 3px;
-  min-width: 100px;
-  padding: 6px 15px;
+    margin-bottom: 3px;
+    min-width: 100px;
+    padding: 6px 15px;
 }
 
 .chart-horizontal .metric .metric-value {
-  float: right;
-  font-weight: bold;
+    float: right;
+    font-weight: bold;
 }

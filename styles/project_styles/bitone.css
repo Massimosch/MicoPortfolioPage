@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: bitone_font;
     src: url("./../fonts/blueberry.otf");
@@ -5,13 +7,13 @@
 
 #bitone_title
 {
-    color: rgba(255, 255, 255, 255);
-    font-family: 'bitone_font', 'monospace';
-    font-size: 5.8rem; 
-    letter-spacing: +0.7rem;
+    color: rgb(246, 246, 246);
+    -webkit-text-stroke: 1px rgb(255, 139, 0);
+    font-family: 'Fira Code', 'monospace';
+    font-size: 5rem;
     text-align: center;
     padding-bottom: 25px;
-} 
+}
 
 
 #github_link_bitone
@@ -23,9 +25,9 @@
 
 #bitone_quote
 {
-    font-family: 'VT323', 'monospace';
+    font-family: 'Fira Code', 'monospace';
     color: rgba(255, 255, 255, 255);
-    border-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(0, 0, 0, 0.2);
     text-align: center;
     font-size: 20px;
 }
@@ -46,5 +48,27 @@
     color: rgba(255, 255, 255, 255);
     font-size: 1.8rem; 
     letter-spacing: -.05rem;
-} 
+}
+
+#itchio_link_bitone {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#itchio_link_bitone a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16pt;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#itchio_link_bitone a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
 
