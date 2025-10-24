@@ -3,12 +3,8 @@
 */
 
 const ProjectNames = [
-  "bitone",
-  "hukkaputki",
-  "project3",
-  "project4",
-  "project5",
-  "project6"
+  "thebitone",
+  "hukkaputki"
 ];
 
 let ProjectText = [];
