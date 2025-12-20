@@ -30,6 +30,12 @@ body
     border: 0px solid rgb(149, 255, 0);
 }
 
+/* Center the top container (title, portrait, links) */
+.top-container {
+    margin-top: 1%;
+    text-align: center;
+}
+
 h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 
 #title_description
@@ -56,6 +62,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 
 .landing_logo
 {
+    display: block;
     margin: 10px auto;
     height: 25vh;
 
@@ -283,6 +290,11 @@ p a:hover {
     margin-left: 1rem;
     overflow: hidden;
     vertical-align: middle;
+}
+
+/* Hide the top navigation career button when aria-hidden is true (cleaner than inline styles) */
+#career-Button[aria-hidden="true"] {
+    display: none;
 }
 
 #pt
