@@ -20,11 +20,12 @@ body
 
 #title
 {
-    color: rgba(255, 255, 255, 255);
+    color: rgba(255, 255, 255, 0.95);
     font-family: 'Fira Code', 'monospace';
-    font-size: 20pt;
+    font-size: 2.2rem;
     margin: -20px auto;
     width: max-content;
+    letter-spacing: 0.05rem;
 
     /* DEBUG VARIABLES */
     border: 0px solid rgb(149, 255, 0);
@@ -54,10 +55,11 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 
 #about_me
 {
-    color: rgba(255, 255, 255, 255);
+    color: rgba(255, 255, 255, 0.88);
     font-family: 'cascadia', 'monospace';
-    font-size: 1.8rem;
-    letter-spacing: -.05rem;
+    font-size: 1.6rem;
+    letter-spacing: -.02rem;
+    line-height: 1.6;
 }
 
 .landing_logo
@@ -142,6 +144,14 @@ i.fa {
     padding: 5px;
     font-size: 20pt;
     color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+i.fa:hover {
+    color: rgb(255, 200, 80);
+    text-shadow: 0 0 15px rgba(255, 200, 80, 0.8);
+    transform: scale(1.2);
 }
 
 word
@@ -185,7 +195,8 @@ letter.initial
     -webkit-box-pack: center;
     justify-content: center;
     text-align: center;
-    width: 90%;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .button_container {
@@ -206,8 +217,9 @@ letter.initial
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         flex-direction: row;
-        -webkit-box-pack: justify;
-        justify-content: space-between;
+        -webkit-box-pack: center;
+        justify-content: center;
+        gap: 2rem;
     }
 }
 
@@ -258,6 +270,8 @@ p a:hover {
     text-decoration: none;
     text-transform: uppercase;
     width: 100%;
+    display: inline-block;
+    transition: all 0.3s ease;
 }
 
 .btn:hover {
@@ -282,12 +296,13 @@ p a:hover {
     outline-color: rgba(255, 255, 255, 0);
     outline-offset: 15px;
     text-shadow: 1px 1px 2px #427388;
+    transform: scale(1.1);
 }
 
 .kd-button  {
     position: relative;
     display: inline-block;
-    margin-left: 1rem;
+    margin: 0 1rem;
     overflow: hidden;
     vertical-align: middle;
 }
@@ -299,11 +314,13 @@ p a:hover {
 
 #pt
 {
-    color: rgba(255, 255, 255, 255);
-    font-family: 'cascadia', 'monospace';
-    font-size: 1.8rem;
-    letter-spacing: -.05rem;
+    color: rgb(255, 200, 80);
+    font-family: 'Fira Code', 'monospace';
+    font-size: 2.8rem;
+    letter-spacing: +0.15rem;
     text-align: center;
+    text-shadow: 0 0 10px rgba(255, 200, 80, 0.5);
+    margin: 20px auto;
 }
 
 .proj-button
@@ -375,7 +392,7 @@ p a:hover {
     letter-spacing: -.05rem;
 }
 
-/* New Skills Styles */
+/* Skills container styling */
 .skills-container {
     color: rgba(255, 255, 255, 255);
     font-family: 'cascadia', 'monospace';
@@ -383,6 +400,15 @@ p a:hover {
     line-height: 1.6;
     max-width: 800px;
     margin: 0 auto;
+}
+
+.skills-container li {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/* Make skill names at start of line slightly more visible */
+.skills-container li::first-line {
+    color: rgba(255, 255, 255, 0.88);
 }
 
 .skill-category {

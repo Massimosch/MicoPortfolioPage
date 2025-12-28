@@ -3,6 +3,7 @@
 */
 
 const ProjectNames = [
+  "hazardhaul",
   "thebitone",
   "hukkaputki"
 ];

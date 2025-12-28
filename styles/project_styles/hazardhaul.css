@@ -1,0 +1,104 @@
+@font-face
+{
+    font-family: hazardhaul_font;
+    src: url("./../fonts/blueberry.otf");
+}
+
+#hazardhaul_title
+{
+    color: rgba(255, 255, 255, 255);
+    -webkit-text-stroke: 2px rgb(255, 87, 34);
+    font-family: 'hazardhaul_font', 'monospace';
+    font-size: 5rem;
+    letter-spacing: +0.5rem;
+    text-align: center;
+    padding-bottom: 15px;
+    text-shadow: 0 0 10px rgba(255, 87, 34, 0.5);
+}
+
+#github_link_hazardhaul
+{
+    align-self: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+#github_link_hazardhaul a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+#github_link_hazardhaul a:hover
+{
+    color: rgb(255, 87, 34);
+    text-shadow: 0 0 10px rgba(255, 87, 34, 0.8);
+}
+
+#hazardhaul_quote
+{
+    font-family: 'Fira Code', 'monospace';
+    color: rgba(255, 255, 255, 255);
+    border-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 25px;
+}
+
+#hazardhaul_tldr
+{
+    text-align: center;
+}
+
+#hazardhaul_body
+{
+    text-align: left;
+    font-family: 'cascadia', 'monospace';
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border-left: 3px solid rgb(255, 152, 102);
+}
+
+.hazardhaul_text
+{
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-size: 1.8rem;
+    letter-spacing: -.05rem;
+}
+
+.hazardhaul_text strong
+{
+    color: rgb(255, 152, 102);
+    text-shadow: 0 0 5px rgba(255, 87, 34, 0.3);
+}
+
+#hazardhaul_youtube
+{
+    text-align: center;
+}
+
+#itchio_link_hazardhaul
+{
+    align-self: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+#itchio_link_hazardhaul a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+#itchio_link_hazardhaul a:hover
+{
+    color: rgb(255, 152, 102);
+    text-shadow: 0 0 15px rgba(255, 87, 34, 0.8);
+    transform: scale(1.15);
+}
+

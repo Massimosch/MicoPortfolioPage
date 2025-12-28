@@ -38,8 +38,14 @@
 
 #hukkaputki_body
 {
-    text-align: center;
+    text-align: left;
     font-family: 'cascadia', 'monospace';
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border-left: 3px solid rgb(180, 130, 250);
 }
 
 #hukkaputki_youtube
@@ -49,9 +55,15 @@
 
 .hukkaputki_text
 {
-    color: rgba(255, 255, 255, 255);
+    color: rgba(255, 255, 255, 0.85) !important;
     font-size: 1.8rem; 
     letter-spacing: -.05rem;
+}
+
+.hukkaputki_text strong
+{
+    color: rgb(180, 130, 250);
+    text-shadow: 0 0 5px rgba(130, 74, 250, 0.3);
 }
 
 #itchio_link_bitone
@@ -65,9 +77,31 @@
     text-decoration: none;
     color: rgb(255, 255, 255);
     transition: all 0.3s ease;
+    display: inline-block;
 }
 
 #itchio_link_bitone a:hover {
-    color: rgba(255, 255, 255, 0.8);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    color: rgb(180, 130, 250);
+    text-shadow: 0 0 15px rgba(180, 130, 250, 0.8);
+    transform: scale(1.15);
+}
+
+.hukkaputki-figma-link {
+    color: rgb(180, 130, 250);
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid rgb(180, 130, 250);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: 0 5px;
+}
+
+.hukkaputki-figma-link:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(180, 130, 250, 0.2);
+    border-color: rgb(200, 160, 255);
+    box-shadow: 0 0 15px rgba(180, 130, 250, 0.6);
+    transform: scale(1.05);
 }
