@@ -90,7 +90,7 @@
                 <ul class="did">
                     <li><b>The whole game, solo:</b> gameplay, enemy AI, UI, saving, scene flow.</li>
                     <li><b>MS_Tools</b>, my own reusable Unity package: generic singleton, timers, extensions and editor tools (see below).</li>
-                    <li><b>Generic object pooling</b> for enemies, projectiles and audio sources.</li>
+                    <li><b>Generic object pooling</b> for enemies, game objects and audio sources.</li>
                     <li><b>Timer system</b> hooked directly into Unity's PlayerLoop instead of MonoBehaviour updates.</li>
                     <li><b>Event-driven architecture</b> with C# delegates for scene switching, UI and saving.</li>
                     <li><b>Enemy navigation</b> with Unity NavMesh.</li>
@@ -113,7 +113,7 @@
                         └─ UI tweens<br />
                         <br />
                         <span class="dir">Game systems/</span><br />
-                        ├─ MyObjectPool&lt;T&gt; + PoolManager <span class="note">// enemies, projectiles, audio</span><br />
+                        ├─ MyObjectPool&lt;T&gt; + PoolManager <span class="note">// enemies, objects, audio sources</span><br />
                         └─ AudioManager
                     </div>
                 </div>
