@@ -82,14 +82,15 @@
                 <ul class="facts">
                     <li class="hl">Solo</li>
                     <li class="hl">Grade 5 / 5</li>
-                    <li>~3 months</li>
+                    <li>Oct – Dec 2025</li>
                     <li>Unity · C#</li>
                     <li>Metropolia, 1st year</li>
                 </ul>
                 <h4>What I built</h4>
                 <ul class="did">
                     <li><b>The whole game, solo:</b> gameplay, enemy AI, UI, saving, scene flow.</li>
-                    <li><b>MS_Tools</b>, my own reusable Unity package of core systems (see below).</li>
+                    <li><b>MS_Tools</b>, my own reusable Unity package: generic singleton, timers, extensions and editor tools (see below).</li>
+                    <li><b>Generic object pooling</b> for enemies, projectiles and audio sources.</li>
                     <li><b>Timer system</b> hooked directly into Unity's PlayerLoop instead of MonoBehaviour updates.</li>
                     <li><b>Event-driven architecture</b> with C# delegates for scene switching, UI and saving.</li>
                     <li><b>Enemy navigation</b> with Unity NavMesh.</li>
@@ -103,12 +104,17 @@
                 <div>
                     <h4>MS_Tools: my own package</h4>
                     <div class="code-box">
-                        <span class="dir">MS_Tools/</span><br />
-                        ├─ Singletons/ <span class="note">// generic + persistent</span><br />
-                        ├─ ObjectPooler <span class="note">// reuse bullets &amp; enemies</span><br />
-                        ├─ AudioManager<br />
-                        ├─ TimerSystem <span class="note">// runs in PlayerLoop</span><br />
-                        └─ VectorExtensions
+                        <span class="dir">MS_Tools/</span> <span class="note">// reusable across projects</span><br />
+                        ├─ Singleton&lt;T&gt; <span class="note">// generic</span><br />
+                        ├─ Timer/ <span class="note">// Countdown, Interval, runs in PlayerLoop</span><br />
+                        ├─ Scripting Extensions/ <span class="note">// List, Vector2, Vector3</span><br />
+                        ├─ Project Setup <span class="note">// editor menu: folders + asset imports</span><br />
+                        ├─ Editor shortcuts <span class="note">// inspector lock toggle</span><br />
+                        └─ UI tweens<br />
+                        <br />
+                        <span class="dir">Game systems/</span><br />
+                        ├─ MyObjectPool&lt;T&gt; + PoolManager <span class="note">// enemies, projectiles, audio</span><br />
+                        └─ AudioManager
                     </div>
                 </div>
                 <div>
