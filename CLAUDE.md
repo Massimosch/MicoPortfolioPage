@@ -7,7 +7,7 @@ Mico Schalin's portfolio: a static single-page site (plain HTML/CSS, a few lines
 Show clearly **what Mico built in each project** (personal contribution, team size, duration, result) and **what Mico can do** (skills tiered by real usage, backed by projects). Mico supplies the facts: ask rather than invent numbers, dates, roles or claims.
 
 Honesty rules learned so far:
-- Mico graduates from Metropolia in early summer 2027 and is now an intern at the Finnish Meteorological Institute (SmartMet documentation, testing, infrastructure). Present Mico as a developer, not a student.
+- Mico graduates from Metropolia in early summer 2027 and is a trainee at the Finnish Meteorological Institute since Aug 2026 (SmartMet documentation, testing, infrastructure). Present Mico as a developer, not a student.
 - Don't claim third-party code as Mico's. MS_Tools contains community code (Code Monkey utils, git-amend's UnityUtils extensions and ImprovedTimers), so describe it as "own code + curated utilities".
 - For team projects, describe only Mico's part, and credit teammates where they built on it.
 
