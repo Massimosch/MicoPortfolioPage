@@ -635,17 +635,6 @@ details.more[open] summary::before { content: "− "; }
 
 .about-text p { color: #c9ced7; margin-top: 0; }
 
-.quote
-{
-    margin: 24px 0 0;
-    padding-left: 16px;
-    border-left: 3px solid var(--accent);
-    font-family: var(--mono);
-    font-style: italic;
-    font-size: 14px;
-    color: var(--muted);
-}
-
 .timeline { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--border); }
 
 .timeline li { position: relative; padding: 0 0 22px 22px; }

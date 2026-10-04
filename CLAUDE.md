@@ -7,8 +7,8 @@ Mico Schalin's portfolio: a static single-page site (plain HTML/CSS, a few lines
 Show clearly **what Mico built in each project** (personal contribution, team size, duration, result) and **what Mico can do** (skills tiered by real usage, backed by projects). Mico supplies the facts: ask rather than invent numbers, dates, roles or claims.
 
 Honesty rules learned so far:
-- Mico is about to graduate, so present him as a developer, not a student.
-- Don't claim third-party code as his. MS_Tools contains community code (Code Monkey utils, git-amend's UnityUtils extensions and ImprovedTimers), so describe it as "own code + curated utilities".
+- Mico graduates from Metropolia in early summer 2027 and is now an intern at the Finnish Meteorological Institute (SmartMet documentation, testing, infrastructure). Present Mico as a developer, not a student.
+- Don't claim third-party code as Mico's. MS_Tools contains community code (Code Monkey utils, git-amend's UnityUtils extensions and ImprovedTimers), so describe it as "own code + curated utilities".
 - For team projects, describe only Mico's part, and credit teammates where they built on it.
 
 ## Run locally
@@ -40,5 +40,4 @@ Copy an `<article class="project ...">` block. Use `project-featured` for a wide
 
 ## Open questions for Mico
 - Hazard Haul timer system: written by Mico, or adapted from git-amend's ImprovedTimers?
-- Graduation date (timeline says 2024 – 2026).
 - Overtail public link/video; MS_Tools GitHub repo URL once it's created.
