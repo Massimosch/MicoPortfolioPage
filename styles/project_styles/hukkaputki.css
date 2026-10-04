@@ -66,21 +66,21 @@
     text-shadow: 0 0 5px rgba(130, 74, 250, 0.3);
 }
 
-#itchio_link_bitone
+#itchio_link_hukkaputki
 {
     align-self: center;
     text-align: center;
     font-size: 50px;
 }
 
-#itchio_link_bitone a {
+#itchio_link_hukkaputki a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     transition: all 0.3s ease;
     display: inline-block;
 }
 
-#itchio_link_bitone a:hover {
+#itchio_link_hukkaputki a:hover {
     color: rgb(180, 130, 250);
     text-shadow: 0 0 15px rgba(180, 130, 250, 0.8);
     transform: scale(1.15);
