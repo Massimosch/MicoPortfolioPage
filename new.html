@@ -129,31 +129,6 @@
             </div>
         </article>
 
-        <!-- Damnorak / BIT1 -->
-        <article class="project project-featured reveal" id="damnorak" style="--p: #ff3ea5;">
-                <div class="project-media">
-                    <img class="logo" src="Data/images/BitOne.jpg" alt="BIT1 Game Dev Competition logo" />
-                </div>
-                <div class="project-body">
-                    <h3>Damnorak</h3>
-                    <p class="project-tagline">3D roguelite inspired by The Binding of Isaac, built solo for the BIT1 Game Dev Competition 2025.</p>
-                    <ul class="facts">
-                        <li class="hl">Solo</li>
-                        <li>Game jam</li>
-                        <li>Unity · C#</li>
-                        <li>March 2025</li>
-                    </ul>
-                    <ul class="did">
-                        <li><b>Roguelite game loop</b> with procedurally generated rooms.</li>
-                        <li><b>Enemy AI</b> with NavMesh, effects with Shader Graph.</li>
-                        <li><b>Tried AI-assisted development</b> for code and voices, and learned where it creates technical debt.</li>
-                    </ul>
-                    <div class="project-links">
-                        <a class="btn btn-primary" href="https://xmassimo.itch.io/bit12025dm" target="_blank" rel="noopener"><i class="fa fa-gamepad"></i> Play on itch.io</a>
-                    </div>
-                </div>
-            </article>
-
         <div class="itch-banner reveal">
             <span><b>More small games and experiments</b> are on my itch.io page.</span>
             <a class="btn" href="https://xmassimo.itch.io/" target="_blank" rel="noopener"><i class="fa fa-external-link"></i> xmassimo.itch.io</a>
@@ -166,80 +141,57 @@
     <div class="wrap">
         <div class="section-head reveal">
             <span class="label">// 02</span>
-            <h2>What I can do</h2>
-            <p>Each skill links to the project where I used it.</p>
+            <h2>Skills</h2>
+            <p>Sorted by how much I actually use them.</p>
         </div>
 
-        <div class="skills">
-            <div class="skill-card reveal">
-                <h3>&gt; languages</h3>
-                <div class="skill">
-                    <div class="skill-name">C# <span class="skill-level">main language</span></div>
-                    <p>OOP, SOLID, generics, delegates and events. I use it every day.</p>
-                    <div class="used-in"><a href="#hazard-haul">Hazard Haul</a><a href="#damnorak">Damnorak</a></div>
+        <div class="tier tier-main reveal">
+            <div class="tier-head">
+                <h3>Daily use</h3>
+                <span>proficient</span>
+            </div>
+            <div class="chips chips-lg">
+                <span class="chip">C#</span>
+                <span class="chip">Unity</span>
+                <span class="chip">Git</span>
+                <span class="chip">JetBrains Rider</span>
+            </div>
+            <div class="tier-proof">
+                <span class="tier-proof-label">In practice:</span>
+                reusable tooling · generic singletons &amp; object pooling · event-driven design ·
+                PlayerLoop timers · editor scripting · NavMesh AI
+                <a href="#hazard-haul">→ Hazard Haul</a>
+            </div>
+        </div>
+
+        <div class="tier-row">
+            <div class="tier reveal">
+                <div class="tier-head">
+                    <h3>Comfortable with</h3>
+                    <span>used in projects</span>
                 </div>
-                <div class="skill">
-                    <div class="skill-name">C++ <span class="skill-level">learning</span></div>
-                    <p>Modern C++ fundamentals; Unreal Engine C++. Aiming for a small engine project.</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">JavaScript · HTML · CSS <span class="skill-level">shipped</span></div>
-                    <p>Vanilla JS web apps and this site.</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">Python <span class="skill-level">familiar</span></div>
-                    <p>Flask web basics, MariaDB.</p>
-                </div>
+                <dl class="tier-groups">
+                    <dt>Engines</dt>
+                    <dd><span class="chip">Unreal Engine (C++, Blueprints)</span><span class="chip">Godot (2D)</span></dd>
+                    <dt>Web</dt>
+                    <dd><span class="chip">JavaScript</span><span class="chip">HTML / CSS</span><span class="chip">Python · Flask</span><span class="chip">MariaDB</span></dd>
+                    <dt>Unity tools</dt>
+                    <dd><span class="chip">Shader Graph</span><span class="chip">Odin Inspector</span><span class="chip">DOTween</span><span class="chip">A* Pathfinding</span></dd>
+                    <dt>Workflow</dt>
+                    <dd><span class="chip">Visual Studio</span><span class="chip">VS Code</span><span class="chip">Linux</span><span class="chip">Jira</span><span class="chip">Trello</span><span class="chip">Miro</span><span class="chip">Figma</span></dd>
+                    <dt>Art</dt>
+                    <dd><span class="chip">Blender</span><span class="chip">Aseprite</span></dd>
+                </dl>
             </div>
 
-            <div class="skill-card reveal">
-                <h3>&gt; game engines</h3>
-                <div class="skill">
-                    <div class="skill-name">Unity <span class="skill-level">700+ h</span></div>
-                    <p>Gameplay programming, PlayerLoop, NavMesh, Shader Graph, editor scripting.</p>
-                    <div class="used-in"><a href="#hazard-haul">Hazard Haul</a><a href="#damnorak">Damnorak</a></div>
+            <div class="tier tier-learning reveal">
+                <div class="tier-head">
+                    <h3>Learning now</h3>
                 </div>
-                <div class="skill">
-                    <div class="skill-name">Unreal Engine <span class="skill-level">100+ h</span></div>
-                    <p>C++ and Blueprints, Enhanced Input.</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">Godot <span class="skill-level">2D</span></div>
-                    <p>Comfortable building 2D games.</p>
-                </div>
-            </div>
-
-            <div class="skill-card reveal">
-                <h3>&gt; architecture &amp; systems</h3>
-                <div class="skill">
-                    <div class="skill-name">Reusable tooling</div>
-                    <p>Own Unity package: singletons, object pooling, audio, timers, extensions.</p>
-                    <div class="used-in"><a href="#hazard-haul">MS_Tools</a></div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">Event-driven design</div>
-                    <p>Delegates and events to decouple UI, saving and scene flow.</p>
-                    <div class="used-in"><a href="#hazard-haul">Hazard Haul</a></div>
-                </div>
-                        </div>
-
-            <div class="skill-card reveal">
-                <h3>&gt; tools &amp; workflow</h3>
-                <div class="skill">
-                    <div class="skill-name">Dev tools</div>
-                    <p>Git, Rider, Visual Studio, VS Code, Windows &amp; Linux.</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">Unity ecosystem</div>
-                    <p>Odin Inspector, DOTween, Init(args), A* Pathfinding Project.</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">Planning &amp; teamwork</div>
-                    <p>Jira, Trello, Miro, Figma.</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">Art &amp; VFX</div>
-                    <p>Shader Graph VFX, Blender (static props), Aseprite (items, UI).</p>
+                <div class="chips">
+                    <span class="chip">C++</span>
+                    <span class="chip">Unity DOTS</span>
+                    <span class="chip">HLSL shaders</span>
                 </div>
             </div>
         </div>

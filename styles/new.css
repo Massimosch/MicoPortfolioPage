@@ -481,67 +481,114 @@ details.more[open] summary::before { content: "− "; }
 
 /* ---------- Skills ---------- */
 
-.skills
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-
-@media (max-width: 760px) { .skills { grid-template-columns: 1fr; } }
-
-.skill-card
+.tier
 {
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 22px 24px;
+    padding: 24px 28px;
 }
 
-.skill-card h3
+.tier-main
 {
-    font-family: var(--mono);
-    font-size: 15px;
-    color: var(--accent);
-    margin: 0 0 14px;
-    font-weight: 400;
+    border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+    background: linear-gradient(135deg, rgba(255, 176, 46, 0.08), transparent 60%), var(--surface);
+    margin-bottom: 20px;
 }
 
-.skill
+.tier-row
 {
-    padding: 10px 0;
-    border-top: 1px solid var(--border);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    align-items: start;
 }
 
-.skill:first-of-type { border-top: 0; padding-top: 0; }
+@media (max-width: 760px)
+{
+    .tier-row { grid-template-columns: 1fr; }
+    .tier { padding: 20px; }
+}
 
-.skill-name
+.tier-head
 {
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
     gap: 12px;
-    font-weight: 600;
+    margin-bottom: 16px;
 }
 
-.skill-level { font-family: var(--mono); font-size: 12px; color: var(--muted); font-weight: 400; white-space: nowrap; }
+.tier-head h3 { margin: 0; font-size: 20px; }
 
-.skill p { margin: 4px 0 0; color: var(--muted); font-size: 15px; }
-
-.used-in { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px; }
-
-.used-in a
+.tier-head span
 {
     font-family: var(--mono);
-    font-size: 12px;
-    padding: 2px 8px;
-    border-radius: 6px;
-    background: var(--surface-2);
-    border: 1px solid var(--border);
+    font-size: 13px;
     color: var(--muted);
 }
 
-.used-in a:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+.tier-main .tier-head h3 { color: var(--accent); }
+
+.chips, .tier-groups dd { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.chip
+{
+    font-size: 14px;
+    padding: 5px 12px;
+    border-radius: 8px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    color: #c9ced7;
+    white-space: nowrap;
+}
+
+.chips-lg .chip
+{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 18px;
+    color: var(--text);
+    border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
+}
+
+.tier-learning .chip { border-style: dashed; color: var(--muted); }
+
+.tier-proof
+{
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 15px;
+}
+
+.tier-proof-label { color: var(--text); font-weight: 600; margin-right: 4px; }
+.tier-proof a { white-space: nowrap; margin-left: 6px; }
+
+.tier-groups
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 12px 16px;
+    margin: 0;
+    align-items: baseline;
+}
+
+.tier-groups dt
+{
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--muted);
+    white-space: nowrap;
+}
+
+.tier-groups dd { margin: 0; }
+
+@media (max-width: 480px)
+{
+    .tier-groups { grid-template-columns: 1fr; gap: 6px; }
+    .tier-groups dd { margin-bottom: 8px; }
+}
 
 /* ---------- About / timeline ---------- */
 
