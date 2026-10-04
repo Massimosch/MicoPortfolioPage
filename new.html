@@ -129,6 +129,104 @@
             </div>
         </article>
 
+        <!-- Overtail: team project -->
+        <article class="project project-featured reveal" id="overtail" style="--p: #7fbf8f;">
+            <div class="project-media">
+                <img class="logo logo-wide" src="Data/images/Overtail.png" alt="Overtail logo" />
+            </div>
+            <div class="project-body">
+                <h3>Overtail</h3>
+                <p class="project-tagline">Turn-based tactics prototype inspired by Final Fantasy Tactics, with a cast of forest animals.</p>
+                <ul class="facts">
+                    <li class="hl">Team of 7</li>
+                    <li>~3 months</li>
+                    <li>Unity 6 · C#</li>
+                    <li>Metropolia UAS project</li>
+                </ul>
+                <h4>My part</h4>
+                <ul class="did">
+                    <li><b>Input system:</b> one ScriptableObject that wraps Unity's Input System and exposes events for camera, abilities, items and UI. Gameplay input is switched off during enemy turns.</li>
+                    <li><b>Tactics camera</b> with Cinemachine: follows the active unit, free look, zoom, map bounds and a refocus hotkey.</li>
+                    <li><b>Enemy AI foundation:</b> the BaseAction pattern, enemy turn flow and MoveAction. Teammates built the attack and move evaluation on top of it.</li>
+                    <li><b>Repo setup:</b> project structure, Git workflow, and reviewing and merging the team's early pull requests.</li>
+                </ul>
+                <p class="project-tagline" style="margin-top:16px;">Also used: FMOD, A* Pathfinding, URP. My MS_Tools singletons run the core managers.</p>
+            </div>
+        </article>
+
+        <!-- MS_Tools -->
+        <article class="project project-featured reveal" id="ms-tools" style="--p: #6cb6ff;">
+            <div class="project-body">
+                <h3>MS_Tools</h3>
+                <p class="project-tagline">My Unity toolkit: my own systems and editor tools plus community utilities I've picked out. I start every project with it and keep improving it.</p>
+                <ul class="facts">
+                    <li class="hl">Used in 4 projects</li>
+                    <li>Own code + curated utilities</li>
+                    <li>C# · Unity Editor API</li>
+                </ul>
+                <ul class="did">
+                    <li><b>Patterns:</b> generic and persistent singletons.</li>
+                    <li><b>PlayerLoop timers</b>, with no MonoBehaviour needed.</li>
+                    <li><b>Audio and object pooling systems</b>, UI tweens and a library of C# extensions.</li>
+                    <li><b>Editor tooling:</b> one-click project setup (folders and asset imports), build helper, editor shortcuts.</li>
+                </ul>
+            </div>
+            <div class="project-media project-media-code">
+                <div class="code-box">
+                    <span class="note">// started in</span> <a href="#hazard-haul">Hazard Haul</a><br />
+                    <span class="note">// grew in</span> <a href="#overtail">Overtail</a>, Unity DOTS,<br />
+                    <span class="note">//</span> What Lies Below<br /><br />
+                    <span class="dir">MS_Tools/</span><br />
+                    ├─ Programming Patterns/<br />
+                    ├─ Timer/<br />
+                    ├─ Scripting Extensions/<br />
+                    ├─ Tweens/<br />
+                    ├─ Project Setup/<br />
+                    └─ Unity Shortcuts/
+                </div>
+            </div>
+        </article>
+
+        <!-- Currently building -->
+        <h3 class="sub-head reveal"><span class="live-dot"></span> Currently building</h3>
+        <div class="project-grid">
+            <article class="project reveal" id="unity-dots" style="--p: #ff7a59;">
+                <div class="project-body">
+                    <h3>Unity DOTS RTS</h3>
+                    <p class="project-tagline">RTS prototype built fully in Unity's Entity Component System, with large numbers of units fighting zombie hordes.</p>
+                    <ul class="facts">
+                        <li class="hl">In development</li>
+                        <li>Solo</li>
+                        <li>Entities · Burst · Jobs</li>
+                    </ul>
+                    <ul class="did">
+                        <li><b>23 Burst-compiled ISystems</b> with parallel jobs for movement, targeting and combat.</li>
+                        <li><b>Baked mesh animation</b> stored in BlobAssets, so animation runs without Animators.</li>
+                        <li><b>ECS physics queries</b> for target finding and box selection that connects GameObjects and entities.</li>
+                    </ul>
+                    <p class="project-tagline" style="margin-top:14px; font-size:14px;">Started from a DOTS course and extended from there. Latest: barracks and unit spawning.</p>
+                </div>
+            </article>
+
+            <article class="project reveal" id="what-lies-below" style="--p: #c58cff;">
+                <div class="project-body">
+                    <h3>What Lies Below</h3>
+                    <p class="project-tagline">Tower defense with incremental RTS elements: a dwarf mines his way down a well and builds turrets to defend the lift.</p>
+                    <ul class="facts">
+                        <li class="hl">In development</li>
+                        <li>Solo</li>
+                        <li>Unity 6 · TopDownEngine</li>
+                    </ul>
+                    <ul class="did">
+                        <li><b>A* Pathfinding + local avoidance</b> plugged into TopDownEngine's character system.</li>
+                        <li><b>Click-to-target combat</b> with auto-aim at the locked target.</li>
+                        <li>Extends the engine through subclasses and leaves vendor code untouched.</li>
+                    </ul>
+                    <p class="project-tagline" style="margin-top:14px; font-size:14px;">Latest: enemy waves pathing to the lift base. Next: first tower and the mining economy.</p>
+                </div>
+            </article>
+        </div>
+
         <div class="itch-banner reveal">
             <span><b>More small games and experiments</b> are on my itch.io page.</span>
             <a class="btn" href="https://xmassimo.itch.io/" target="_blank" rel="noopener"><i class="fa fa-external-link"></i> xmassimo.itch.io</a>
@@ -160,7 +258,7 @@
                 <span class="tier-proof-label">In practice:</span>
                 reusable tooling · generic singletons &amp; object pooling · event-driven design ·
                 PlayerLoop timers · editor scripting · NavMesh AI
-                <a href="#hazard-haul">→ Hazard Haul</a>
+                <a href="#hazard-haul">→ Hazard Haul</a> <a href="#overtail">→ Overtail</a>
             </div>
         </div>
 
