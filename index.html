@@ -25,9 +25,8 @@
     <div class="wrap">
         <a class="nav-logo" href="#top">mico<span>.</span>schalin</a>
         <div class="nav-links">
+            <a href="#about">About</a>
             <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#about" class="hide-sm">About</a>
             <a href="#contact">Contact</a>
         </div>
     </div>
@@ -37,21 +36,15 @@
 <header class="hero" id="top">
     <div class="wrap">
         <div>
-            <p class="hero-kicker">&gt; game developer · C# / Unity</p>
+            <p class="hero-kicker">&gt; game programmer · C# / Unity</p>
             <h1>Mico <span class="accent">Schalin</span></h1>
             <p class="hero-lead">
-                Game developer from Helsinki. I mostly work in <strong>C#</strong> and <strong>Unity</strong>,
-                building gameplay and the tools behind it. Currently learning <strong>C++</strong>.
+                Game programmer from Helsinki who enjoys turning tricky problems into rich game experiences.
             </p>
             <div class="btn-row">
-                <a class="btn btn-primary" href="#projects"><i class="fa fa-arrow-down"></i> See my projects</a>
+                <a class="btn btn-primary btn-itch" href="https://xmassimo.itch.io/" target="_blank" rel="noopener"><i class="fa fa-gamepad"></i> Play my games on itch.io</a>
                 <a class="btn" href="https://github.com/Massimosch" target="_blank" rel="noopener"><i class="fa fa-github"></i> GitHub</a>
                 <a class="btn" href="https://www.linkedin.com/in/mico-schalin/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i> LinkedIn</a>
-            </div>
-            <div class="stats">
-                <div class="stat"><b>5 / 5</b><span>grade, Hazard Haul (solo)</span></div>
-                <div class="stat"><b>700+ h</b><span>in Unity</span></div>
-                <div class="stat"><b>C# · C++ · JS</b><span>languages I ship with</span></div>
             </div>
         </div>
         <img class="hero-portrait" src="Data/images/portrait.png" alt="Portrait of Mico Schalin" />
@@ -60,14 +53,116 @@
 
 <main>
 
+<!-- ================= ABOUT ================= -->
+<section id="about">
+    <div class="wrap">
+        <div class="section-head reveal">
+            <span class="label">// 01</span>
+            <h2>About me</h2>
+        </div>
+        <div class="about">
+            <div class="about-text reveal">
+                <p>
+                    Before code, I spent years as a chef in some of Helsinki's busiest restaurants.
+                    The kitchen taught me to work fast in a team, under pressure, and that a smooth service
+                    depends on the prep done before it.
+                </p>
+                <p>
+                    Game development works the same way. What I enjoy most is the prep players never see:
+                    the tools, architecture and gameplay code that make the next feature easy to build.
+                </p>
+                <p>
+                    I'm a social person, and I can talk about games and how they're made for hours.
+                    So don't hesitate to <a href="#contact">reach out</a>, whether you have a project in mind
+                    or just want to grab a coffee and talk games. I'm up for it! 😊
+                </p>
+                <div class="about-skills">
+                    <span class="about-skills-label">Proficient in</span>
+                    <div class="chips">
+                        <span class="chip">C#</span>
+                        <span class="chip">Unity</span>
+                        <span class="chip">Git</span>
+                        <span class="chip">Linux</span>
+                        <span class="chip">C++</span>
+                    </div>
+                    <p class="about-skills-extra"><span class="accent">+</span> DevOps enthusiast</p>
+                </div>
+            </div>
+            <ol class="timeline reveal">
+                <li>
+                    <div class="when">Aug 2026 – now</div>
+                    <div class="what">Trainee</div>
+                    <div class="where">Finnish Meteorological Institute · SmartMet documentation, testing, infrastructure</div>
+                </li>
+                <li>
+                    <div class="when">2024 – summer 2027</div>
+                    <div class="what">ICT Bachelor's, Game Development</div>
+                    <div class="where">Metropolia University of Applied Sciences</div>
+                </li>
+                <li>
+                    <div class="when">2022 – 2024</div>
+                    <div class="what">Vocational Qualification, Computer Games Engineering</div>
+                    <div class="where">Taitotalo, Helsinki · grade 4.4 / 5</div>
+                </li>
+                <li class="past">
+                    <div class="when">2017 – 2022</div>
+                    <div class="what">Chef</div>
+                    <div class="where">Löyly, Signor Smith, Farang, Lily Lee (Helsinki)</div>
+                </li>
+                <li class="past">
+                    <div class="when">2016 – 2017</div>
+                    <div class="what">Finnish Defence Forces</div>
+                    <div class="where">Sea fire support, underwater surveillance</div>
+                </li>
+            </ol>
+        </div>
+    </div>
+</section>
+
 <!-- ================= PROJECTS ================= -->
 <section id="projects">
     <div class="wrap">
         <div class="section-head reveal">
-            <span class="label">// 01</span>
+            <span class="label">// 02</span>
             <h2>Projects</h2>
             <p>What I built, what I was responsible for, and how it turned out.</p>
         </div>
+
+        <!-- Currently building -->
+        <h3 class="sub-head reveal"><span class="live-dot"></span> Currently building</h3>
+        <div class="project-grid">
+            <article class="project reveal" id="unity-dots" style="--p: #ff7a59;">
+                <div class="project-body">
+                    <h3>Zombie Survivors</h3>
+                    <p class="project-tagline">RTS prototype built fully in Unity's Entity Component System, with large numbers of units fighting zombie hordes.</p>
+                    <ul class="facts">
+                        <li class="hl"><span>Status</span>In development</li>
+                        <li><span>Team</span>Solo</li>
+                        <li><span>Tech</span>Entities · Burst · Jobs</li>
+                    </ul>
+                    <ul class="did">
+                        <li><b>23 Burst-compiled ISystems</b> with parallel jobs for movement, targeting and combat.</li>
+                        <li><b>Baked mesh animation</b> stored in BlobAssets, so animation runs without Animators.</li>
+                        <li><b>ECS physics queries</b> for target finding and box selection that connects GameObjects and entities.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="project reveal" id="emberhold" style="--p: #c58cff;">
+                <div class="project-body">
+                    <h3>Emberhold</h3>
+                    <p class="project-tagline">Top-down fantasy action roguelite: explore isles by day, then keep a lighthouse flame alive against the Mist by night. The flame changes colour every dawn, and the world, enemies and weapons react to it.</p>
+                    <ul class="facts">
+                        <li class="hl"><span>Status</span>In development</li>
+                        <li><span>Team</span>Solo</li>
+                        <li><span>Tech</span>Unity 6 · TopDownEngine</li>
+                        <li title="Active editor time logged by DevTrails since Sep 2026"><span>Dev time</span><b data-devtrails>~13 h</b></li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+
+        <h3 class="sub-head reveal">Featured work</h3>
 
         <!-- Hazard Haul: featured -->
         <article class="project project-featured reveal" id="hazard-haul" style="--p: #ffb02e;">
@@ -79,11 +174,11 @@
                 <h3>Hazard Haul</h3>
                 <p class="project-tagline">Sci-fi auto shooter: survive waves of enemies across 5 planets. Die, and it's back to the start.</p>
                 <ul class="facts">
-                    <li class="hl">Solo</li>
-                    <li class="hl">Grade 5 / 5</li>
-                    <li>Oct – Dec 2025</li>
-                    <li>Unity · C#</li>
-                    <li>Metropolia UAS project</li>
+                    <li><span>Team</span>Solo</li>
+                    <li class="hl"><span>Result</span>Grade 5 / 5</li>
+                    <li><span>When</span>Oct – Dec 2025</li>
+                    <li><span>Tech</span>Unity · C#</li>
+                    <li><span>Context</span>Metropolia UAS</li>
                 </ul>
                 <h4>What I built</h4>
                 <ul class="did">
@@ -138,10 +233,10 @@
                 <h3>Overtail</h3>
                 <p class="project-tagline">Turn-based tactics prototype inspired by Final Fantasy Tactics, with a cast of forest animals.</p>
                 <ul class="facts">
-                    <li class="hl">Team of 7</li>
-                    <li>~3 months</li>
-                    <li>Unity 6 · C#</li>
-                    <li>Metropolia UAS project</li>
+                    <li class="hl"><span>Team</span>7 people</li>
+                    <li><span>Duration</span>~3 months</li>
+                    <li><span>Tech</span>Unity 6 · C#</li>
+                    <li><span>Context</span>Metropolia UAS</li>
                 </ul>
                 <h4>My part</h4>
                 <ul class="did">
@@ -160,9 +255,9 @@
                 <h3>MS_Tools</h3>
                 <p class="project-tagline">My Unity toolkit: my own systems and editor tools plus community utilities I've picked out. I start every project with it and keep improving it.</p>
                 <ul class="facts">
-                    <li class="hl">Used in 4 projects</li>
-                    <li>Own code + curated utilities</li>
-                    <li>C# · Unity Editor API</li>
+                    <li class="hl"><span>Used in</span>4 projects</li>
+                    <li><span>Code</span>Own + curated utilities</li>
+                    <li><span>Tech</span>C# · Unity Editor API</li>
                 </ul>
                 <ul class="did">
                     <li><b>Patterns:</b> generic and persistent singletons.</li>
@@ -174,8 +269,8 @@
             <div class="project-media project-media-code">
                 <div class="code-box">
                     <span class="note">// started in</span> <a href="#hazard-haul">Hazard Haul</a><br />
-                    <span class="note">// grew in</span> <a href="#overtail">Overtail</a>, Unity DOTS,<br />
-                    <span class="note">//</span> What Lies Below<br /><br />
+                    <span class="note">// grew in</span> <a href="#overtail">Overtail</a>, <a href="#unity-dots">Zombie Survivors</a>,<br />
+                    <span class="note">//</span> <a href="#emberhold">Emberhold</a><br /><br />
                     <span class="dir">MS_Tools/</span><br />
                     ├─ Programming Patterns/<br />
                     ├─ Timer/<br />
@@ -187,166 +282,6 @@
             </div>
         </article>
 
-        <!-- Currently building -->
-        <h3 class="sub-head reveal"><span class="live-dot"></span> Currently building</h3>
-        <div class="project-grid">
-            <article class="project reveal" id="unity-dots" style="--p: #ff7a59;">
-                <div class="project-body">
-                    <h3>Unity DOTS RTS</h3>
-                    <p class="project-tagline">RTS prototype built fully in Unity's Entity Component System, with large numbers of units fighting zombie hordes.</p>
-                    <ul class="facts">
-                        <li class="hl">In development</li>
-                        <li>Solo</li>
-                        <li>Entities · Burst · Jobs</li>
-                    </ul>
-                    <ul class="did">
-                        <li><b>23 Burst-compiled ISystems</b> with parallel jobs for movement, targeting and combat.</li>
-                        <li><b>Baked mesh animation</b> stored in BlobAssets, so animation runs without Animators.</li>
-                        <li><b>ECS physics queries</b> for target finding and box selection that connects GameObjects and entities.</li>
-                    </ul>
-                    <p class="project-tagline" style="margin-top:14px; font-size:14px;">Started from a DOTS course and extended from there. Latest: barracks and unit spawning.</p>
-                </div>
-            </article>
-
-            <article class="project reveal" id="what-lies-below" style="--p: #c58cff;">
-                <div class="project-body">
-                    <h3>What Lies Below</h3>
-                    <p class="project-tagline">Tower defense with incremental RTS elements: a dwarf mines his way down a well and builds turrets to defend the lift.</p>
-                    <ul class="facts">
-                        <li class="hl">In development</li>
-                        <li>Solo</li>
-                        <li>Unity 6 · TopDownEngine</li>
-                    </ul>
-                    <ul class="did">
-                        <li><b>A* Pathfinding + local avoidance</b> plugged into TopDownEngine's character system.</li>
-                        <li><b>Click-to-target combat</b> with auto-aim at the locked target.</li>
-                        <li>Extends the engine through subclasses and leaves vendor code untouched.</li>
-                    </ul>
-                    <p class="project-tagline" style="margin-top:14px; font-size:14px;">Latest: enemy waves pathing to the lift base. Next: first tower and the mining economy.</p>
-                </div>
-            </article>
-        </div>
-
-        <div class="itch-banner reveal">
-            <span><b>More small games and experiments</b> are on my itch.io page.</span>
-            <a class="btn" href="https://xmassimo.itch.io/" target="_blank" rel="noopener"><i class="fa fa-external-link"></i> xmassimo.itch.io</a>
-        </div>
-    </div>
-</section>
-
-<!-- ================= SKILLS ================= -->
-<section id="skills">
-    <div class="wrap">
-        <div class="section-head reveal">
-            <span class="label">// 02</span>
-            <h2>Skills</h2>
-            <p>Sorted by how much I actually use them.</p>
-        </div>
-
-        <div class="tier tier-main reveal">
-            <div class="tier-head">
-                <h3>Daily use</h3>
-                <span>proficient</span>
-            </div>
-            <div class="chips chips-lg">
-                <span class="chip">C#</span>
-                <span class="chip">Unity</span>
-                <span class="chip">Git</span>
-                <span class="chip">JetBrains Rider</span>
-            </div>
-            <div class="tier-proof">
-                <span class="tier-proof-label">In practice:</span>
-                reusable tooling · generic singletons &amp; object pooling · event-driven design ·
-                PlayerLoop timers · editor scripting · NavMesh AI
-                <a href="#hazard-haul">→ Hazard Haul</a> <a href="#overtail">→ Overtail</a>
-            </div>
-        </div>
-
-        <div class="tier-row">
-            <div class="tier reveal">
-                <div class="tier-head">
-                    <h3>Comfortable with</h3>
-                    <span>used in projects</span>
-                </div>
-                <dl class="tier-groups">
-                    <dt>Engines</dt>
-                    <dd><span class="chip">Unreal Engine (C++, Blueprints)</span><span class="chip">Godot (2D)</span></dd>
-                    <dt>Web</dt>
-                    <dd><span class="chip">JavaScript</span><span class="chip">HTML / CSS</span><span class="chip">Python · Flask</span><span class="chip">MariaDB</span></dd>
-                    <dt>Unity tools</dt>
-                    <dd><span class="chip">Shader Graph</span><span class="chip">Odin Inspector</span><span class="chip">DOTween</span><span class="chip">A* Pathfinding</span></dd>
-                    <dt>Workflow</dt>
-                    <dd><span class="chip">Visual Studio</span><span class="chip">VS Code</span><span class="chip">Linux</span><span class="chip">Jira</span><span class="chip">Trello</span><span class="chip">Miro</span><span class="chip">Figma</span></dd>
-                    <dt>Art</dt>
-                    <dd><span class="chip">Blender</span><span class="chip">Aseprite</span></dd>
-                </dl>
-            </div>
-
-            <div class="tier tier-learning reveal">
-                <div class="tier-head">
-                    <h3>Learning now</h3>
-                </div>
-                <div class="chips">
-                    <span class="chip">C++</span>
-                    <span class="chip">Unity DOTS</span>
-                    <span class="chip">HLSL shaders</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ================= ABOUT ================= -->
-<section id="about">
-    <div class="wrap">
-        <div class="section-head reveal">
-            <span class="label">// 03</span>
-            <h2>About me</h2>
-        </div>
-        <div class="about">
-            <div class="about-text reveal">
-                <p>
-                    Before code, I spent years as a chef in some of Helsinki's busiest restaurants.
-                    That's where I learned to work fast in a team, under pressure, without cutting corners.
-                </p>
-                <p>
-                    I now bring the same attitude to game development. I like the systems underneath a game most:
-                    tools, architecture and gameplay code that make the next feature easy to add. Right now I'm
-                    reading <em>Game Engine Architecture</em> and learning Unity DOTS, HLSL shaders and more C++.
-                </p>
-                <p>
-                    I'm currently a trainee at the Finnish Meteorological Institute, where I document SmartMet,
-                    test it and work with its infrastructure.
-                </p>
-            </div>
-            <ol class="timeline reveal">
-                <li>
-                    <div class="when">Aug 2026 – now</div>
-                    <div class="what">Trainee</div>
-                    <div class="where">Finnish Meteorological Institute · SmartMet documentation, testing, infrastructure</div>
-                </li>
-                <li>
-                    <div class="when">2024 – summer 2027</div>
-                    <div class="what">ICT Bachelor's, Game Development</div>
-                    <div class="where">Metropolia University of Applied Sciences</div>
-                </li>
-                <li>
-                    <div class="when">2022 – 2024</div>
-                    <div class="what">Vocational Qualification, Computer Games Engineering</div>
-                    <div class="where">Taitotalo, Helsinki · grade 4.4 / 5</div>
-                </li>
-                <li class="past">
-                    <div class="when">2017 – 2022</div>
-                    <div class="what">Chef</div>
-                    <div class="where">Löyly, Signor Smith, Farang, Lily Lee (Helsinki)</div>
-                </li>
-                <li class="past">
-                    <div class="when">2016 – 2017</div>
-                    <div class="what">Finnish Defence Forces</div>
-                    <div class="where">Sea fire support, underwater surveillance</div>
-                </li>
-            </ol>
-        </div>
     </div>
 </section>
 
