@@ -21,7 +21,7 @@ Opening `index.html` directly also works now (no fetch), but use the server to t
 
 ## Structure
 
-- `index.html`: the whole site. Sections: nav, hero, `#projects` (featured cards, "Currently building" grid, itch.io banner), `#skills` (tiers: Daily use / Comfortable with / Learning now), `#about` (text + timeline), `#contact`, footer. Inline script: footer year, click-to-load YouTube (`.video[data-yt]`), scroll reveal (`.reveal`).
+- `index.html`: the whole site. Sections: nav, hero, `#about` (text, "Proficient in" skill chips, timeline), `#projects` ("Currently building" grid, then "Featured work" cards), `#contact`, footer. The separate Skills section was removed on purpose; skills live in About. Inline script: footer year, click-to-load YouTube (`.video[data-yt]`), scroll reveal (`.reveal`).
 - `styles/main.css`: all styles. Colour tokens are in `:root`. Each project card sets its own accent with `style="--p: #hex"`.
 - `styles/fonts/cascadia.ttf`: mono font for labels.
 - `Data/images/`: `portrait.png` (hero), `Mico.png` (favicon), `Overtail.png` (white-text logo for the dark theme), plus images used by archived cards.
@@ -29,14 +29,17 @@ Opening `index.html` directly also works now (no fetch), but use the server to t
 - `Data/My_Resume_No_Number.pdf`: resume (not linked at the moment).
 
 ### Adding a project
-Copy an `<article class="project ...">` block. Use `project-featured` for a wide two-column card, or put it inside `.project-grid` for half-width cards. Order inside a card: tagline, `.facts` chips (first ones `.hl`), "What I built" bullets (`ul.did`), links. Link it from the Skills "In practice" line if it proves a skill.
+Copy an `<article class="project ...">` block. Use `project-featured` for a wide two-column card, or put it inside `.project-grid` for half-width cards. Order inside a card: tagline, `.facts` chips (first ones `.hl`), "What I built" bullets (`ul.did`), links.
 
 ## Projects on the page (source repos in ~/Documents/git/_Unity)
 - Hazard Haul: solo, Metropolia, Oct–Dec 2025, grade 5/5. `HazardHaul/`.
 - Overtail: Metropolia team of 7, ~3 months, FF Tactics-like. Mico: input system (InputReader SO), Cinemachine camera, enemy AI foundation (BaseAction, MoveAction), repo setup. `overtail/`.
 - MS_Tools: toolkit. Latest version is in `What-lies-below/Assets/MS_Tools`.
-- In development: Unity DOTS RTS (`UnityDOTS/`, started from a DOTS course) and What Lies Below (`What-lies-below/`, built on TopDownEngine).
+- In development: Zombie Survivors (Unity DOTS, `UnityDOTS/`, started from a DOTS course) and Emberhold (repo still named `What-lies-below/`, built on TopDownEngine; design in `Documentation/GDD_Emberhold.md`, which replaced the old dwarf/lift tower-defense concept).
 - Not shown: GameDevPracticeLab (course exercises).
+
+## Tracked hours (DevTrails)
+The Emberhold card shows active editor time from DevTrails (tracking since Sep 2026; older projects were never tracked). It does not update itself: run `python3 tools/update-devtrails.py` to copy `activeUseTime` from `What-lies-below/UserSettings/UserStats_project.asset` into the `<b data-devtrails>` tag. Mico's total Unity time is 2000+ h, so don't put DevTrails totals forward as lifetime hours.
 
 ## Open questions for Mico
 - Hazard Haul timer system: written by Mico, or adapted from git-amend's ImprovedTimers?
