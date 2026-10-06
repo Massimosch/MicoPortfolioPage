@@ -135,19 +135,14 @@ img { max-width: 100%; display: block; }
 {
     font-size: clamp(36px, 6vw, 60px);
     line-height: 1.1;
-    margin: 0 0 20px;
+    margin: 0 0 28px;
     letter-spacing: -0.02em;
 }
 
 .hero h1 .accent { color: var(--accent); }
+.hero-kicker .nowrap { white-space: nowrap; }
 
-.hero-lead
-{
-    font-size: 19px;
-    color: var(--muted);
-    max-width: 560px;
-    margin: 0 0 28px;
-}
+.hero-photo { position: relative; }
 
 .hero-portrait
 {
@@ -156,6 +151,20 @@ img { max-width: 100%; display: block; }
     border-radius: 50%;
     border: 3px solid var(--border);
     box-shadow: 0 0 0 8px rgba(255, 176, 46, 0.08), 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+/* Small Finnish flag pinned to the portrait, slightly tilted like a sticker */
+.flag-fi
+{
+    position: absolute;
+    right: 2%;
+    bottom: 8%;
+    width: 25%;
+    height: auto;
+    border-radius: 4px;
+    border: 3px solid var(--bg);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+    transform: rotate(-8deg);
 }
 
 .btn-row { display: flex; flex-wrap: wrap; gap: 12px; }
@@ -238,7 +247,9 @@ img { max-width: 100%; display: block; }
 {
     .hero { padding: 40px 0 48px; }
     .hero .wrap { grid-template-columns: 1fr; gap: 28px; }
-    .hero-portrait { width: 140px; height: 140px; order: -1; }
+    .hero-photo { order: -1; justify-self: start; }
+    .hero-portrait { width: 140px; height: 140px; }
+    .flag-fi { border-width: 2px; }
 }
 
 /* ---------- Sections ---------- */
@@ -539,6 +550,15 @@ details.more[open] summary::before { content: "− "; }
 @media (max-width: 860px) { .about { grid-template-columns: 1fr; } }
 
 .about-text p { color: #c9ced7; margin-top: 0; }
+
+.about-text .about-hi
+{
+    font-size: clamp(26px, 4vw, 32px);
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
 
 .about-skills
 {
