@@ -113,7 +113,7 @@ img { max-width: 100%; display: block; }
 
 /* ---------- Hero ---------- */
 
-.hero { padding: 80px 0 64px; overflow-x: clip; }
+.hero { padding: 80px 0 64px; }
 
 .hero .wrap
 {
@@ -135,14 +135,12 @@ img { max-width: 100%; display: block; }
 {
     font-size: clamp(36px, 6vw, 60px);
     line-height: 1.1;
-    margin: 0 0 28px;
+    margin: 0 0 16px;
     letter-spacing: -0.02em;
 }
 
 .hero h1 .accent { color: var(--accent); }
 .hero-kicker .nowrap { white-space: nowrap; }
-
-.hero-photo { position: relative; }
 
 .hero-portrait
 {
@@ -153,22 +151,28 @@ img { max-width: 100%; display: block; }
     box-shadow: 0 0 0 8px rgba(255, 176, 46, 0.08), 0 20px 60px rgba(0, 0, 0, 0.5);
 }
 
-/* Finnish flag faded into the background behind the portrait */
-.hero-photo { isolation: isolate; }
+/* Location pill with a small Finnish flag */
+.hero-location
+{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 28px;
+    padding: 6px 14px 6px 10px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--surface);
+    font-family: var(--mono);
+    font-size: 14px;
+    color: var(--muted);
+}
 
 .flag-fi
 {
-    position: absolute;
-    right: 40%;
-    top: 50%;
-    z-index: -1;
-    width: 140%;
+    width: 22px;
     height: auto;
-    transform: translateY(-50%);
-    opacity: 0.22;
-    -webkit-mask-image: radial-gradient(closest-side, #000 45%, transparent);
-    mask-image: radial-gradient(closest-side, #000 45%, transparent);
-    pointer-events: none;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12);
 }
 
 .btn-row { display: flex; flex-wrap: wrap; gap: 12px; }
@@ -251,10 +255,7 @@ img { max-width: 100%; display: block; }
 {
     .hero { padding: 40px 0 48px; }
     .hero .wrap { grid-template-columns: 1fr; gap: 28px; }
-    .hero-photo { order: -1; justify-self: start; }
-    .hero-portrait { width: 140px; height: 140px; }
-    /* Portrait is on the left here, so the flag peeks out to its right instead */
-    .flag-fi { right: auto; left: 70%; }
+    .hero-portrait { width: 140px; height: 140px; order: -1; }
 }
 
 /* ---------- Sections ---------- */
