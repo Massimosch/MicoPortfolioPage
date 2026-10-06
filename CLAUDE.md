@@ -24,7 +24,7 @@ Opening `index.html` directly also works now (no fetch), but use the server to t
 - `index.html`: the whole site. Sections: nav, hero, `#about` (text, "Proficient in" skill chips, timeline), `#projects` ("Currently building" grid, then "Featured work" cards), `#contact`, footer. The separate Skills section was removed on purpose; skills live in About. Inline script: footer year, click-to-load YouTube (`.video[data-yt]`), scroll reveal (`.reveal`).
 - `styles/main.css`: all styles. Colour tokens are in `:root`. Each project card sets its own accent with `style="--p: #hex"`.
 - `styles/fonts/cascadia.ttf`: mono font for labels.
-- `Data/images/`: `portrait.png` (hero), `Mico.png` (favicon), `Overtail.png` (white-text logo for the dark theme), plus images used by archived cards.
+- `Data/images/`: `portrait.webp` (hero, 440 px), `portrait-share.jpg` (link-preview `og:image`), `favicon.png` + `apple-touch-icon.png` (made from `Mico.png`), `portrait.png` and `Mico.png` (full-size sources, not loaded by the page), `Overtail.png` (white-text logo for the dark theme), plus images used by archived cards.
 - `Data/archive/`: project cards removed from the page (Hukkaputki, Damnorak). Paste one back into `#projects` to restore it.
 - `Data/My_Resume_No_Number.pdf`: resume (not linked at the moment).
 

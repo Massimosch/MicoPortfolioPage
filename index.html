@@ -9,7 +9,18 @@
     />
     <title>Mico Schalin – Game & Software Developer</title>
 
-    <link rel="icon" type="image/png" href="./Data/images/Mico.png" />
+    <!-- Link previews (LinkedIn, Slack, Discord...) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://massimosch.github.io/MicoPortfolioPage/" />
+    <meta property="og:title" content="Mico Schalin – Game & Software Developer" />
+    <meta property="og:description" content="Gameplay code and tools in C# and Unity. Projects, what I built in each, and how to reach me." />
+    <meta property="og:image" content="https://massimosch.github.io/MicoPortfolioPage/Data/images/portrait-share.jpg" />
+    <meta property="og:image:width" content="496" />
+    <meta property="og:image:height" content="496" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="icon" type="image/png" href="./Data/images/favicon.png" />
+    <link rel="apple-touch-icon" href="./Data/images/apple-touch-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
@@ -36,10 +47,10 @@
 <header class="hero" id="top">
     <div class="wrap">
         <div>
-            <p class="hero-kicker">&gt; game programmer · C# / Unity</p>
+            <p class="hero-kicker">&gt; game & software developer · C# / Unity</p>
             <h1>Mico <span class="accent">Schalin</span></h1>
             <p class="hero-lead">
-                Game programmer from Helsinki who enjoys turning tricky problems into rich game experiences.
+                Developer from Helsinki who enjoys turning tricky problems into rich game experiences.
             </p>
             <div class="btn-row">
                 <a class="btn btn-primary btn-itch" href="https://xmassimo.itch.io/" target="_blank" rel="noopener"><i class="fa fa-gamepad"></i> Play my games on itch.io</a>
@@ -47,7 +58,7 @@
                 <a class="btn" href="https://www.linkedin.com/in/mico-schalin/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i> LinkedIn</a>
             </div>
         </div>
-        <img class="hero-portrait" src="Data/images/portrait.png" alt="Portrait of Mico Schalin" />
+        <img class="hero-portrait" src="Data/images/portrait.webp" width="220" height="220" alt="Portrait of Mico Schalin" />
     </div>
 </header>
 
@@ -165,10 +176,10 @@
         <h3 class="sub-head reveal">Featured work</h3>
 
         <!-- Hazard Haul: featured -->
-        <article class="project project-featured reveal" id="hazard-haul" style="--p: #ffb02e;">
+        <article class="project project-featured project-video reveal" id="hazard-haul" style="--p: #ffb02e;">
             <div class="project-media">
                 <button class="video" data-yt="k-CFcSek9wc" aria-label="Play Hazard Haul gameplay video"
-                        style="background-image: url('https://i.ytimg.com/vi/k-CFcSek9wc/hqdefault.jpg');"></button>
+                        style="background-image: url('https://i.ytimg.com/vi/k-CFcSek9wc/maxresdefault.jpg');"></button>
             </div>
             <div class="project-body">
                 <h3>Hazard Haul</h3>
@@ -183,7 +194,7 @@
                 <h4>What I built</h4>
                 <ul class="did">
                     <li><b>The whole game, solo:</b> gameplay, enemy AI, UI, saving, scene flow.</li>
-                    <li><b>MS_Tools</b>, my own reusable Unity package: generic singleton, timers, extensions and editor tools (see below).</li>
+                    <li><b>MS_Tools</b>, my own reusable Unity package: generic singleton, timers, extensions and editor tools (<a href="#ms-tools">see below</a>).</li>
                     <li><b>Generic object pooling</b> for enemies, game objects and audio sources.</li>
                     <li><b>Timer system</b> hooked directly into Unity's PlayerLoop instead of MonoBehaviour updates.</li>
                     <li><b>Event-driven architecture</b> with C# delegates for scene switching, UI and saving.</li>
@@ -196,22 +207,6 @@
             </div>
             <div class="project-full">
                 <div>
-                    <h4>MS_Tools: my own package</h4>
-                    <div class="code-box">
-                        <span class="dir">MS_Tools/</span> <span class="note">// reusable across projects</span><br />
-                        ├─ Singleton&lt;T&gt; <span class="note">// generic</span><br />
-                        ├─ Timer/ <span class="note">// Countdown, Interval, runs in PlayerLoop</span><br />
-                        ├─ Scripting Extensions/ <span class="note">// List, Vector2, Vector3</span><br />
-                        ├─ Project Setup <span class="note">// editor menu: folders + asset imports</span><br />
-                        ├─ Editor shortcuts <span class="note">// inspector lock toggle</span><br />
-                        └─ UI tweens<br />
-                        <br />
-                        <span class="dir">Game systems/</span><br />
-                        ├─ MyObjectPool&lt;T&gt; + PoolManager <span class="note">// enemies, objects, audio sources</span><br />
-                        └─ AudioManager
-                    </div>
-                </div>
-                <div>
                     <h4>What it taught me</h4>
                     <ul class="did">
                         <li>Using generics and delegates to write systems I can drop into the next project.</li>
@@ -219,7 +214,11 @@
                         <li>Why SOLID matters once a solo codebase grows.</li>
                         <li>Scoping: how much one person can finish in three months.</li>
                     </ul>
-                    <p class="project-tagline" style="margin-top:12px;">Art: Synty asset packs. All code and VFX work is mine.</p>
+                </div>
+                <div>
+                    <h4>Credits</h4>
+                    <p class="project-tagline">Art: Synty asset packs. All code and VFX work is mine.</p>
+                    <p class="project-tagline">The reusable parts (singleton, timers, extensions, editor tools) became <a href="#ms-tools">MS_Tools</a>.</p>
                 </div>
             </div>
         </article>
@@ -245,7 +244,7 @@
                     <li><b>Enemy AI foundation:</b> the BaseAction pattern, enemy turn flow and MoveAction. Teammates built the attack and move evaluation on top of it.</li>
                     <li><b>Repo setup:</b> project structure, Git workflow, and reviewing and merging the team's early pull requests.</li>
                 </ul>
-                <p class="project-tagline" style="margin-top:16px;">Also used: FMOD, A* Pathfinding, URP. My MS_Tools singletons run the core managers.</p>
+                <p class="project-tagline project-note">Also used: FMOD, A* Pathfinding, URP. My MS_Tools singletons run the core managers.</p>
             </div>
         </article>
 
@@ -272,12 +271,12 @@
                     <span class="note">// grew in</span> <a href="#overtail">Overtail</a>, <a href="#unity-dots">Zombie Survivors</a>,<br />
                     <span class="note">//</span> <a href="#emberhold">Emberhold</a><br /><br />
                     <span class="dir">MS_Tools/</span><br />
-                    ├─ Programming Patterns/<br />
-                    ├─ Timer/<br />
-                    ├─ Scripting Extensions/<br />
-                    ├─ Tweens/<br />
-                    ├─ Project Setup/<br />
-                    └─ Unity Shortcuts/
+                    ├─ Programming Patterns/ <span class="note">// generic + persistent singletons</span><br />
+                    ├─ Timer/ <span class="note">// Countdown, Interval, runs in PlayerLoop</span><br />
+                    ├─ Scripting Extensions/ <span class="note">// List, Vector2, Vector3</span><br />
+                    ├─ Tweens/ <span class="note">// UI tweens</span><br />
+                    ├─ Project Setup/ <span class="note">// folders + asset imports</span><br />
+                    └─ Unity Shortcuts/ <span class="note">// inspector lock toggle</span>
                 </div>
             </div>
         </article>
@@ -304,7 +303,7 @@
 
 </main>
 
-<footer>&copy; <span id="footer-year">2025</span> Mico Schalin</footer>
+<footer>&copy; <span id="footer-year">2026</span> Mico Schalin</footer>
 
 <script>
     document.getElementById("footer-year").textContent = new Date().getFullYear();
