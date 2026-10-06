@@ -159,10 +159,10 @@ img { max-width: 100%; display: block; }
 .flag-fi
 {
     position: absolute;
-    right: 0;
+    right: 40%;
     top: 50%;
     z-index: -1;
-    width: 190%;
+    width: 140%;
     height: auto;
     transform: translateY(-50%);
     opacity: 0.22;
